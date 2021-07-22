@@ -1,0 +1,28 @@
+{
+  "name": "vuex-service-podcast-api",
+  "version": "0.0.1",
+  "description": "A helper utility to simplify the usage of REST APIs with Vuex. Based on axios.",
+  "author": "Sastec",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/empreinte/fo_v2/service-podcast-api"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "es6-promise": "^4.2.6",
+    "lodash.clonedeep": "^4.5.0"
+  },
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "typescript": "^3.4.3"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts"
+}
